@@ -11,7 +11,7 @@ void setup() {
 void loop(){
   // Aguardo o serial
   while(Serial.available()){
-       mySwitch.send(Serial.read(), 24);
+       mySwitch.send(Serial.read(), 4);
   }
 }
 
