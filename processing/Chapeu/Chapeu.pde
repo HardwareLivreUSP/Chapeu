@@ -27,22 +27,22 @@ void boca(int led, int abre, int fecha, int tempo){
 void keyPressed() {
   if (key == '1') {
       minim = new Minim(this);
-      player = minim.loadFile("griffindor.wav.wav", 2048);
+      player = minim.loadFile("griffindor.wav", 2048);
       player.play();
       myPort.write(3);
   } else if (key == '2') {
       minim = new Minim(this);
-      player = minim.loadFile("hufflepuff.wav.wav", 2048);
+      player = minim.loadFile("hufflepuff.wav", 2048);
       player.play();
       myPort.write(3);
   } else if (key == '3') {
       minim = new Minim(this);
-      player = minim.loadFile("ravenclaw.wav.wav", 2048);
+      player = minim.loadFile("ravenclaw.wav", 2048);
       player.play();
       myPort.write(3);
   } else if (key == '4') {
       minim = new Minim(this);
-      player = minim.loadFile("slitheryn.wav.wav", 2048);
+      player = minim.loadFile("slitheryn.wav", 2048);
       player.play();
       myPort.write(2);
   }
